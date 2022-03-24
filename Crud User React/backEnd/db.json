@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "luiz felipe",
+      "email": "aaa.felippe@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "claudia",
+      "email": "claudia.AAA@gmail.com"
+    },
+    {
+      "name": "luiz.felipe",
+      "email": "Luiz.felipe@squadra.com.br",
+      "id": 3
+    }
+  ]
+}

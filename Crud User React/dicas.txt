@@ -1,0 +1,23 @@
+criacao pasta backEnd 
+criacao pasta crudUser
+dentro backEnd executar npm init -y
+instalar npm i --save json-server  // para simular um banco de dados
+criar arquivo db.json para ser a estrutura do web service 
+adicionar script no package.json  "start":"json-server --watch db.json --port 3001"
+rodar npm start
+
+
+criacao projeto  crudUser
+
+create-react-app users
+no package.json adicionar nas dependencies
+
+"axios":"^0.25.0",
+"bootstrap":"^5.1.3",
+"font-awesome":"^4.7.0",
+"react-router":"^6.2.1",
+"react-router-dom":"~6.2.1",
+
+executar o comando npm i
+dentro de src criar pasta components
+

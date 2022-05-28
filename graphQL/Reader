@@ -1,0 +1,37 @@
+
+-> frontend
+npm create vite@latest
+npm i @apollo/client graphql
+
+
+
+-> backend
+npm init -y
+npm i type-graphql graphql apollo-server class-validator reflect-metadata
+npm i typescript @types/node ts-node-dev -D
+npx tsc --init
+
+
+npm run dev
+
+localhost
+
+-> Get 
+
+query{
+  ping
+  users{
+    id
+    name
+  }
+}
+
+------------
+-> Insert
+mutation{
+  createUser(name:"luiz"){
+    id
+    name
+  }
+}
+
